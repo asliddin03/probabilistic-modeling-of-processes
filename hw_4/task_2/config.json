@@ -1,0 +1,15 @@
+{
+  "Y": 10.0,
+  "h": 1.0,
+  "steps": 30,
+  "s_values": [-2, -1, 0, 1, 2],
+  "distribution": {
+    "type": "uniform",
+    "p": 0.4,
+    "trials": 4,
+    "shift": 2
+  },
+  "K": 10,
+  "l": 2,
+  "experiments": 1000
+}
