@@ -1,0 +1,13 @@
+{
+  "rho": 20.0,
+  "n": 8,
+  "M": 100,
+  "K": 50,
+  "distribution": "uniform",
+
+  "binomial_p": 0.5,
+
+  "geometric_q": 0.35,
+
+  "triangular_mode": 4
+}
