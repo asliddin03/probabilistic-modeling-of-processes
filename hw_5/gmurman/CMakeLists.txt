@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.20)
+project(part_1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_executable(task_92 task_92/main.cpp)
+add_executable(task_93 task_93/main.cpp)
+add_executable(task_95 task_95/main.cpp)
+add_executable(task_98 task_98/main.cpp)
+add_executable(task_100 task_100/main.cpp)
+add_executable(task_102 task_102/main.cpp)
+add_executable(task_104 task_104/main.cpp)
+add_executable(task_107 task_107/main.cpp)
