@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.20)
+project(gmurman LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_executable(109 109.cpp)
+add_executable(111 111.cpp)
+add_executable(112 112.cpp)
+add_executable(113 113.cpp)
+add_executable(114 114.cpp)
+add_executable(115 115.cpp)
+add_executable(116 116.cpp)
+add_executable(117 117.cpp)
+add_executable(118 118.cpp)
