@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(part_1 LANGUAGES CXX)
+project(gmurman LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -7,7 +7,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(task_6 task_6/main.cpp)
 add_executable(task_8 task_8/main.cpp)
-add_executable(task_13 task_13/main.cpp)
+add_executable(task_13 task_13/main.cpp
+        ../part_2/task_1/main.cpp)
 add_executable(task_15 task_15/main.cpp)
 add_executable(task_19 task_19/main.cpp)
 add_executable(task_20 task_20/main.cpp)
@@ -17,3 +18,6 @@ add_executable(task_26 task_26/main.cpp)
 add_executable(task_27 task_27/main.cpp)
 add_executable(task_28 task_28/main.cpp)
 add_executable(task_29 task_29/main.cpp)
+add_executable(task_30 task_30/main.cpp)
+add_executable(task_32 task_32/main.cpp)
+add_executable(task_45 task_45/main.cpp)
