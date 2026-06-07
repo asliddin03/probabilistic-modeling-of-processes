@@ -1,4 +1,4 @@
-#include "discreterandomvariable.h"
+#include "../discreterandomvariable.h"
 
 #include <QtMath>
 #include <stdexcept>

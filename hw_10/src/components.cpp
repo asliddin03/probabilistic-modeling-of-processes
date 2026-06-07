@@ -8,7 +8,7 @@ std::vector<std::vector<int>> connectedComponents(const Graph& g) {
     for (int s = 0; s < g.n; ++s) {
         if (used[s]) continue;
 
-        std::vector<int> comp;
+        std::vector<int> comp;  
         std::queue<int> q;
         q.push(s);
         used[s] = 1;
